@@ -1,0 +1,13 @@
+AIVEN_URL = "https://api.aiven.io/v1/project/{}/service/{}/metrics"
+AIVEN_TOKEN = ""
+DYNATRACE_URL = "https://EXAMPLE.live.dynatrace.com/api/v2/metrics/ingest"
+DYNATRACE_TOKEN = ""
+PROMETHEUS_CONFIG = {
+    "url": "https://SERVICE.aivencloud.com",
+    "port": 9273,
+    "user": "",
+    "pass": ""
+}
+METRICS = [
+    "system_uptime"
+]
